@@ -148,8 +148,8 @@ switcheroo.if.then("s")
     d$haul<-as.integer(d$haul)
     #above line used for changing numeric to integer
     
-    d<-data.frame(d$sw.density)
-    d<-NULL
+    d$sw.density<-NULL
+    #On running str(d), "sw.density" got deleted
     
 
     
