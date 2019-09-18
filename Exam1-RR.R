@@ -5,7 +5,9 @@
    u<-A[1]
    v<-A[7]
    
-6. (u<v)
+6. u<v
+   u>v
+   u>=v
 
 7. A[2]
    A[6]
@@ -20,7 +22,7 @@
    10*(x-y)
    #from above operation R returned -40
    
-8. #For not R operator is %in%
+8. #For not R operator is !
 
 9. u%%v
    #from above operation R returned 5
@@ -127,6 +129,16 @@ switcheroo.if.then("s")
 
 21. load(file="test1_data.Rdata")
 
+    nrow(d)
+    503441
+    
+    ncol(d)
+    18
+  
+    class(d$transect)
+    # transect is of Character data type
+
+    
     d$tow<-as.factor(d$tow)
     #above line used for changing factor to character
     
