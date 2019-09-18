@@ -131,6 +131,10 @@ switcheroo.if.then("s")
     #above line used for changing factor to character
     
     d$haul<-as.integer(d$haul)
+    #above line used for changing numeric to integer
+    
+    d<-data.frame(d$sw.density)
+    d<-NULL
     
 
     
