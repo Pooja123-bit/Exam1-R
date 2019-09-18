@@ -137,6 +137,9 @@ switcheroo.if.then("s")
   
     class(d$transect)
     # transect is of Character data type
+    
+    str(d)
+    #Five different data types are chr, int, num, factor nd POSIXct
 
     
     d$tow<-as.factor(d$tow)
